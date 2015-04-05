@@ -1,9 +1,21 @@
 {
-  "name": "WebRequest UA test",
+  "name": "Botty",
+  "description": "Magically read all FT.com content.",
   "version": "1.0",
-  "permissions": ["webRequest", "webRequestBlocking", "http://*/*"],
+  "permissions": [
+    "webRequest", 
+    "webRequestBlocking", 
+    "http://*/*",
+    "storage"
+  ],
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["underscore-min.js", "background.js"]
   },
-  "manifest_version": 2
+  "options_page": "options.html",
+  "manifest_version": 2,
+  "icons": { 
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png" 
+  }
 }

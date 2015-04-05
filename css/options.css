@@ -1,0 +1,39 @@
+.container {
+  margin: 40px auto;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+#status {
+  width: 100%;
+  display: none;
+  position: fixed;
+  background: rgba(0, 128, 0, 0.85);
+  top: 0;
+  z-index: 99;
+}
+
+#status p {
+  color: #fff;
+  vertical-align: middle;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 15px auto;
+}
+
+h1 img {
+  margin-right: 10px;
+  top: 5px;
+  position: relative;
+}
+
+textarea {
+  width: 75%;
+  min-height: 300px;
+}
+
+button {
+  display: block;
+}
